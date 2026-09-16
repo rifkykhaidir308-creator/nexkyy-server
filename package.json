@@ -1,17 +1,16 @@
 {
   "name": "nexkyy-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "5.5.8",
+  "description": "NEXKYY XPLOIT API Server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
